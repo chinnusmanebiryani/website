@@ -237,6 +237,9 @@ header .intro-text {
 	padding: 0;
 	background: #f6f6f6;
 }
+#about .our-story {
+	padding: 0 50px;
+}
 #about h2::after {
 	bottom: 0;
 	margin-left: 0;
