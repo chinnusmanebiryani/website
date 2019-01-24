@@ -199,18 +199,37 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro p {
 	color: #fff;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 400;
-	margin-top: 150px;
+	margin-top: 60px;
 }
 header .intro-text {
 	padding-top: 200px;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	text-align: center;
+}
+
+.intro-text .btn {
+	border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.intro-text .swiggy {
+	background: #fc8019;
+}
+
+.intro-text .zomato {
+	background: #cb202d;
+	margin-left: 20px;
+}
+header .intro-text div{
+	margin-top: 100px;
 }
 /* Features Section */
 #features {
-	padding: 120px 0;
+	padding: 100px 0;
 }
 #features .features-item {
 	margin: 0 20px;
@@ -328,13 +347,13 @@ header .intro-text {
 	padding: 100px 0;
 	background: #333;
 }
+
+#contact .section-title h2 {
+	color: #aaa;
+}
 #contact .contact-item p {
 	font-size: 15px;
 	color: #777;
-}
-#contact .section-title {
-	margin-top: 60px;
-	margin-bottom: 40px;
 }
 #contact form {
 	padding: 0;
