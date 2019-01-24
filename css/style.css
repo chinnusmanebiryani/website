@@ -177,11 +177,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 
-@media screen and (max-width: 600px) {
-	.intro, .intro .overlay {
-		height: 100vh;
-	}
-}
 .intro .overlay {
 	background: rgba(0,0,0,0.4);
 }
@@ -201,7 +196,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
-	margin-top: 60px;
+	margin-top: 50px;
 }
 header .intro-text {
 	padding-top: 200px;
@@ -209,11 +204,17 @@ header .intro-text {
 	text-align: center;
 }
 
+
 .intro-text .btn {
 	border: none;
     color: white;
     font-size: 18px;
     font-weight: 500;
+}
+
+.intro-text img {
+	width: 40%;
+	margin: auto;
 }
 
 .intro-text .swiggy {
@@ -225,8 +226,21 @@ header .intro-text {
 	margin-left: 20px;
 }
 header .intro-text div{
-	margin-top: 100px;
+	margin-top: 70px;
 }
+
+@media only screen and (max-width: 600px) {
+	.intro, .intro .overlay {
+		height: 100vh;
+	}
+	#logo {
+		width: 80%;
+	}
+	header .intro-text div.button-container{
+		margin-top: 110px;
+	}
+}
+
 /* Features Section */
 #features {
 	padding: 100px 0;
