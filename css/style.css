@@ -178,7 +178,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 @media screen and (max-width: 600px) {
-	.intro {
+	.intro, .intro .overlay {
 		height: 100vh;
 	}
 }
